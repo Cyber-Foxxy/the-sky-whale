@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Sun-Forged Gear Spark",
+    "type": "gear",
+    "value": 15,
+    "color": "#ffd36b"
+  },
+  {
+    "name": "Obsidian Prism Glimmer",
+    "type": "prism",
+    "value": 20,
+    "color": "#a78bfa"
+  },
+  {
+    "name": "Ancient Map Fragment",
+    "type": "map",
+    "value": 10,
+    "color": "#7dd3fc"
+  },
+  {
+    "name": "Stone Heart Pulse",
+    "type": "heart",
+    "value": 25,
+    "color": "#fb7185"
+  },
+  {
+    "name": "Crystal Skull Echo",
+    "type": "skull",
+    "value": 30,
+    "color": "#e9d5ff"
+  }
+]

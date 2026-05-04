@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Bullie Brigade: Sky Whale Relic Run</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <section class="title-card">
+      <p class="eyebrow">Interactive Web Experience</p>
+      <h1>The Bullie Brigade: Sky Whale Relic Run</h1>
+      <p>
+        Help Moose and Zephyr stabilize the Sky Whale by collecting ancient relic energy,
+        dodging Odium shadow hazards, and keeping the ship's power balanced.
+      </p>
+    </section>
+
+    <section class="game-layout">
+      <aside class="panel instructions">
+        <h2>Mission Controls</h2>
+        <p><strong>Move:</strong> Arrow keys or WASD</p>
+        <p><strong>Collect:</strong> glowing relic shards</p>
+        <p><strong>Avoid:</strong> purple Odium shadows</p>
+        <p><strong>Click:</strong> release a bubble-pipe pulse</p>
+        <p><strong>Goal:</strong> reach 120 relic power before morale runs out.</p>
+
+        <div class="button-row">
+          <button id="startBtn">Start Mission</button>
+          <button id="restartBtn">Restart</button>
+        </div>
+
+        <label class="toggle-sound">
+          <input type="checkbox" id="soundToggle" />
+          Sound effects
+        </label>
+      </aside>
+
+      <section class="canvas-wrap">
+        <canvas id="gameCanvas" width="960" height="540">
+          Your browser does not support HTML5 Canvas.
+        </canvas>
+      </section>
+
+      <aside class="panel stats">
+        <h2>Ship Status</h2>
+        <p>Relic Power: <span id="scoreOutput">0</span>/120</p>
+        <p>Morale: <span id="livesOutput">3</span></p>
+        <p>Stage: <span id="levelOutput">1</span></p>
+        <p>Message: <span id="messageOutput">Press Start Mission</span></p>
+      </aside>
+    </section>
+
+    <section class="lore-panel">
+      <h2>Project Concept</h2>
+      <p>
+        This interactive artwork combines canvas animation, JavaScript classes, arrays,
+        JSON-loaded objects, keyboard and mouse input, collision detection, scoring,
+        multiple stages, and visual feedback. The scene is inspired by
+        <em>The Bullie Brigade</em>: a steampunk adventure aboard the Sky Whale.
+      </p>
+    </section>
+  </main>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
